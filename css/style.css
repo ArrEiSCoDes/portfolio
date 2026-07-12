@@ -23,3 +23,110 @@ section {
     margin-bottom: 20px;
     border-radius: 10px;
 }
+/* ==========================
+ORCHID TECH THEME
+========================== */
+
+
+:root {
+
+--background:#f8fafc;
+
+--text:#1e293b;
+
+--primary:#173b63;
+
+--accent:#8b5cf6;
+
+}
+
+
+body {
+
+background:var(--background);
+
+color:var(--text);
+
+transition:.4s ease;
+
+}
+
+
+
+header {
+
+background:
+linear-gradient(
+135deg,
+#173b63,
+#8b5cf6
+);
+
+}
+
+
+
+#themeToggle {
+
+margin-top:20px;
+
+padding:12px 20px;
+
+border:none;
+
+border-radius:25px;
+
+background:white;
+
+color:#173b63;
+
+font-weight:bold;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+
+
+#themeToggle:hover {
+
+transform:scale(1.05);
+
+}
+
+
+
+/* DARK ORCHID MODE */
+
+
+.dark-mode {
+
+--background:#0f172a;
+
+--text:#f8fafc;
+
+--primary:#93c5fd;
+
+--accent:#c084fc;
+
+}
+
+
+
+.dark-mode section {
+
+background:#1e293b;
+
+color:white;
+
+}
+
+
+
+.dark-mode a {
+
+color:#c084fc;
+
+}
