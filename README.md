@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 My AI &amp; IT Portfolio for Claude Corps and Community Impact Projects
 # Hi, I'm Sierra Covington 👋
 
