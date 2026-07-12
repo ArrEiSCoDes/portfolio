@@ -30,6 +30,8 @@ I'm an aspiring AI and IT professional passionate about using technology to impr
 - OSHA 10
 - NFPA 70E
 
-## Connect with Me
+## 👩🏽‍💻 Connect With Me
 
-LinkedIn:
+I am continuing to grow my skills in web development, AI, cybersecurity, and IT support while building technology solutions focused on community impact.
+
+🔗 LinkedIn: [Sierra Covington](https://www.linkedin.com/in/sierra-covington-tech)
