@@ -1,28 +1,44 @@
-// Welcome Message
-console.log("Welcome to Sierra's Portfolio!");
-
-// Button Message
-function welcomeMessage() {
-    alert("Thank you for visiting my portfolio! I'm currently learning HTML, CSS, JavaScript, Git, AI, and Cybersecurity.");
-}
-// ==========================
-// ORCHID TECH THEME SWITCH
-// ==========================
+// Orchid interaction
 
 
-const themeButton =
-document.getElementById("themeToggle");
+const orchids = document.querySelectorAll(".orchid");
 
 
-if(themeButton){
+orchids.forEach((orchid)=>{
 
 
-themeButton.addEventListener("click",()=>{
+orchid.addEventListener("click",()=>{
 
 
-document.body.classList.toggle("dark-mode");
+orchid.style.transform="scale(1.5)";
+
+
+setTimeout(()=>{
+
+
+orchid.style.transform="scale(1)";
+
+
+},500);
+
 
 
 });
+
+
+});
+
+
+
+// Welcome message
+
+
+function welcomemessage(){
+
+
+alert(
+"Welcome to Sierra's AI & Technology Portfolio 🌸"
+);
+
 
 }
